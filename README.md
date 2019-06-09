@@ -28,6 +28,17 @@ var r = new Rhyme();
         <li>loose : match all known rhyming patterns</li>
       </ul>
     </ul>
+    <li>return value is a object with two properties</li>
+    <ul>
+      <li>types : an array of the types of rhymes that matched</li>
+      <li>rhymes : a boolean value thats true if a rhyme was found</li>
+    </ul>
+  </ul>
+  <li>assonant(word1,word2)</li>
+  <ul>
+    <li>this is the rhyming of vowels in words but with different consonants</li>
+    <li>return value is a boolean, retuns true if match was found</li>
   </ul>
   <li></li>
+  <ul></ul>
 </ul>
