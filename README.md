@@ -11,7 +11,7 @@ moderate size javascript library for testing if 2 words rhyme (10+ rhyme schemes
 ```
 
 <h3>Local file</h3>
-</p>download and include the /js/rhyme.js from this directory into your project.</p> 
+</p>download and include the /js/rhyme.js file from this directory into your project.</p> 
 
 <h1>Usage</h1>
 <h3>Make a rhyme object</h3>
