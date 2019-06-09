@@ -11,8 +11,10 @@ https://cdn.jsdelivr.net/gh/PiethonCoder/Rhyme.js/js/rhyme.js
 
 <h1>Usage</h1>
 <h3>Make a rhyme object</h3>
+
 ```javascript
-var r = new Rhyme();
+var s = "JavaScript syntax highlighting";
+alert(s);
 ```
 
 <h3>Use one of the rhyme functions</h3>
