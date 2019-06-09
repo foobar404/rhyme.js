@@ -5,7 +5,7 @@ moderate size javascript library for testing if 2 words rhyme (10+ rhyme schemes
 
 <h1>Include</h1>
 <h3>CDN</h3>
-```html
+```HTML
 
 <script src="https://cdn.jsdelivr.net/gh/PiethonCoder/Rhyme.js/js/rhyme.js"></script>
 ```
