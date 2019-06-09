@@ -17,7 +17,7 @@ var r = new Rhyme();
 
 <h3>Use one of the rhyme functions</h3>
 <ul>
-  <li>rhymesWith(word1,word2,options(optional))</li>
+  <li>rhymesWith(word1, word2, options(optional))</li>
   <ul>
     <li>word1 & word2 are the strings you want to compare</li>
     <li>options is a object with optinal properties</li>
@@ -29,4 +29,5 @@ var r = new Rhyme();
       </ul>
     </ul>
   </ul>
+  <li></li>
 </ul>
