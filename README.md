@@ -44,6 +44,10 @@ var r = new Rhyme();
     <li>this is the rhyming of vowels in words but with different consonants</li>
     <li>return value is a boolean, retuns true if match was found</li>
   </ul>
-  <li></li>
-  <ul></ul>
+  
+  <li>consonant(word1,word2)</li>
+  <ul>
+    <li>This is the rhyming of consonants but not vowels</li>
+    <li>return value is a boolean, retuns true if match was found</li>
+  </ul>
 </ul>
