@@ -11,10 +11,9 @@ moderate size javascript library for testing if 2 words rhyme (10+ rhyme schemes
 
 <h1>Usage</h1>
 <h3>Make a rhyme object</h3>
-```js
 
 var r = new Rhyme();
-```
+
 
 <h3>Use one of the rhyme functions</h3>
 <ul>
