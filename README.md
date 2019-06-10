@@ -1,7 +1,7 @@
 # Rhyme.js
 moderate size javascript library for testing if 2 words rhyme (10+ rhyme schemes supported)
 
-<a href="http://ghost-writer.ga">See live example</a>
+<a href="https://ghost-writer.ga">See live example</a>
 
 <h1>Include</h1>
 <h3>CDN</h3>
