@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <link rel="icon" href="./media/favicon.png">
     <title>ghost writer</title>
-
+    <link rel="stylesheet" href="./css/paint.css">
     <link rel="stylesheet" href="./css/index.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:600&display=swap" rel="stylesheet">
@@ -18,9 +18,9 @@
         <div class="w40 h100 left bc1 flex-column flex-top">
             <div class="h45 w100 flex-column !of">
                 <h1 class="fs5rem c-#343434">Ghost Writer</h1>
-                <p class="c4">AI assisted lyircs creating tool</p>
+                <p class="c4">AI assisted lyrics creating tool</p>
             </div>
-            <div id="head-bar" class="h10 w100 bc-#343434"></div>
+            <div id="head-bar" class="h10 w100 "></div>
             <div class="h45 w100 flex-column !of">
                 <a href="#pad" class="button4">write some lyircs <i class="material-icons">arrow_downward</i></a>
             </div>
@@ -36,6 +36,7 @@
 
         <div class="center h100 w100 z20 flex-column">
             <div id="pad" contenteditable="true" class="h90 w40 c-white shadow p20 *text-left text-left fs2rem of-y bc2 rounded3 hiddenBar"></div>
+            <b class="c-#dbbf0d">press tab to autocomplete the generated phrase</b>
             <pre onclick="save()" class="button hvr-sweep-to-bottom">Save Lyircs  <i class="material-icons">music_note</i></pre>
         </div>
     </section>
