@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,3 +51,57 @@
 </body>
 
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="icon" href="./media/favicon.png">
+  <title>ghost writer</title>
+
+  <link rel="stylesheet" href="./css/index.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:600&display=swap" rel="stylesheet"> 
+</head>
+
+<body class="hiddenBar bc1">
+
+  <header class="h100 w100 m20%-bottom">
+    <div class="w40 h100 left bc1 flex-column flex-top">
+      <div class="h45 w100 flex-column !of">
+        <h1 class="fs5rem c-#343434">Ghost Writer</h1>
+        <p class="c4">AI assisted lyircs creating tool</p>
+      </div>
+      <div id="head-bar" class="h10 w100"></div>
+      <div class="h45 w100 flex-column !of">
+        <a href="#pad" class="button4">write some lyircs <i class="material-icons">arrow_downward</i></a>
+      </div>
+    </div>
+  </header>
+  <section class="bc1 w100 h100">
+    <div class="center h100 w100 z10">
+      <div id="blob1" class="w20 h50 top-right"></div>
+      <div id="blob2" class="h50 w30 bottom-left m10%-left"></div>
+      <div id="blob3" class="h50 w40 bottom-right"></div>
+      <div id="blob4" class="h50 w40"></div>
+    </div>
+
+    <div class="center h100 w100 z20 flex-column">
+      <div id="pad" contenteditable="true" class="h90 w40 c-white shadow p20 *text-left text-left fs2rem of-y bc2 rounded3 hiddenBar"></div>
+      <pre onclick="save()" class="button hvr-sweep-to-bottom">Save Lyircs  <i class="material-icons">music_note</i></pre>
+    </div>
+  </section>
+
+  
+  <script src="https://unpkg.com/ml5@0.3.1/dist/ml5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.4/randomColor.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="./js/rhyme.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/foobar404/symbolic.js/versions/paint@1.2.js"></script>
+</body>
+
+</html>
+>>>>>>> 28369420cdad791a2002e4590f1c0945677847fd
