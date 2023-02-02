@@ -9,7 +9,7 @@ small javascript library for testing if 2 words rhyme
 ```
 
 <h3>Local file</h3>
-</p>download [/js/rhyme.js](./js/rhyme.js) and include it in your project</p> 
+<p>download <a href="./js/rhyme.js">/js/rhyme.js</a> and include it in your project</p>
 
 <h1>Example</h1>
 
