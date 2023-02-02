@@ -1,24 +1,29 @@
 # Rhyme.js
-moderate size javascript library for testing if 2 words rhyme (10+ rhyme schemes supported)
+small javascript library for testing if 2 words rhyme
 
-<h1>Include</h1>
+<h1>Installation</h1>
 <h3>CDN</h3>
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/foobar404/Rhyme.js/js/rhyme.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/foobar404/rhyme.js/js/rhyme.js"></script>
 ```
 
 <h3>Local file</h3>
-</p>download and include the /js/rhyme.js file from this directory into your project.</p> 
+</p>download [/js/rhyme.js](./js/rhyme.js) and include it in your project</p> 
 
-<h1>Usage</h1>
-<h3>Make a rhyme object</h3>
+<h1>Example</h1>
 
 ```javascript
-var r = new Rhyme();
+let r = new Rhyme();
+let result = r.rhymesWith("can","man");
+
+if(result.rhymes)
+  alert("these words rhyme");
 ```
 
-<h3>Use one of the rhyme functions</h3>
+<h1>Docs</h1>
+
+<h3>Functions</h3>
 <ul>
   <li>rhymesWith(word1, word2, options(optional))</li>
   <ul>
@@ -95,14 +100,4 @@ var r = new Rhyme();
   <ul>return value is an array of the word seperated into syllables (90% accuracy)</ul>
 </ul>
 
-<h1>Examples</h1>
 
-```javascript
-var r = new Rhyme();
-
-var result = r.rhymesWith("can","man");
-
-if(result.rhymes){
-  alert("these words rhyme");
-}
-```
